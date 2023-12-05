@@ -7,7 +7,7 @@ RUN apt-get install -y curl
 
 ARG ARTIFACT_URL
 
-ENV ARTIFACT_URL=http://10.41.28.164:8080/io.cronapp.apps.safetymoment-1.0-SNAPSHOT.war
+ENV ARTIFACT_URL=http://10.41.58.229:8080/io.cronapp.apps.safetymoment-1.0-SNAPSHOT.war
 
 RUN echo "ARTIFACT_URL = $ARTIFACT_URL"
 
