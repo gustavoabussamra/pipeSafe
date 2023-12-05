@@ -17,7 +17,7 @@ COPY resources /opt/
 # Pega scripts da imagem e executa
 COPY scripts /opt/scripts/
 
-# Muda permissoes
+# Muda permissoes do arquivo
 RUN chmod u+x /opt/scripts/*.sh
 #RUN chown app:app /opt/scripts/service.sh
 
